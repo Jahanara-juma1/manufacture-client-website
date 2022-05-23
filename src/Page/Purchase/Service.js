@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Service = ({ service }) => {
+const Service = ({ service, setProduct }) => {
     const {name, price, img, description, orderquantity, availablequantity} = service;
     return (
         <div class="card w-96 bg-base-100 shadow-xl">
@@ -14,8 +14,11 @@ const Service = ({ service }) => {
                 <p>available-quantity: {availablequantity}</p>
                 <p>{description}</p>
                 <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
-                </div>
+                    
+            <label for="booking-modal" 
+            onClick={() =>setProduct(service)}
+            class="btn btn-primary text-white">Buy Now</label>
+            </div>
             </div>
         </div>
     );

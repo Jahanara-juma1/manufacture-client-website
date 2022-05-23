@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import BookingModal from './BookingModal';
 import Service from './Service';
 
 
 const AvailableProduct = () => {
     const [services, setServices] = useState([]);
+    const [product, setProduct] = useState(null);
 
     useEffect( () =>{
         fetch('services.json')
@@ -19,9 +21,14 @@ const AvailableProduct = () => {
                     services.map(service=><Service
                     key={service._id}
                     service={service}
+                    setProduct={setProduct}
                     ></Service>)
                 }
             </div>
+            {product && <BookingModal
+             product={product}
+             setProduct={setProduct}
+             ></BookingModal>}
         </div>
     );
 };

@@ -3,8 +3,8 @@
         "_id": 1,
         "name": "Nikon D5600 DSLR camera",
         "price": "700",
-        "orderquantity": "5",
-        "availablequantity": "2",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": "Star Tech presents the exclusive collection of latest Canon & Nikon DSLR cameras at best market price for the customers",
         "img": "https://i.ibb.co/bHj6HWX/pexels-carl-kristensen-1674300-1.png"
     },
@@ -12,8 +12,8 @@
         "_id": 2,
         "name": "18-55mm Lens",
         "price": "780",
-        "orderquantity": "3",
-        "availablequantity": "4",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": "The viewfinder of a DSLR contains a single lens by which an image that will not differ substantially from what is captured by the camera's sensor",
         "img": "https://i.ibb.co/4tXJT9N/pexels-john-rapone-8185668-1.png"
     },
@@ -21,8 +21,8 @@
         "_id": 3,
         "name": "Sony Alfa A6400",
         "price": "900",
-        "orderquantity": "2",
-        "availablequantity": "5",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": "DSLR camera has a unique feature called reflex design scheme where light travels through the lens",
         "img": "https://i.ibb.co/YcpLTm6/pexels-ksenia-chernaya-5691633-1.png"
     },
@@ -30,8 +30,8 @@
         "_id": 4,
         "name": "Nikon Z50 20.9MP",
         "price": "660",
-        "orderquantity": "4",
-        "availablequantity": "6",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": " the Kodak Microelectronics Technology Division first developed an image sensor with more than 1 million pixels.",
         "img": "https://i.ibb.co/wJPS2G6/pexels-markus-spiske-2027044-1.png"
     },
@@ -39,8 +39,8 @@
         "_id": 5,
         "name": "Canon E06",
         "price": "850",
-        "orderquantity": "7",
-        "availablequantity": "8",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": "this sensor was integrated with a Canon F-1 film SLR body at the Kodak Federal Systems Division to create the first DSLR camera. ",
         "img": "https://i.ibb.co/QDw14Qk/pexels-mo-men-salah-3634734-1.png"
     },
@@ -48,8 +48,8 @@
         "_id": 6,
         "name": "55MM STM Lense",
         "price": "700",
-        "orderquantity": "1",
-        "availablequantity": "9",
+        "orderquantity": "50",
+        "availablequantity": "60",
         "description": "Canon Eos 80D DSLR with 18-55mm Lens Camera",
         "img": "https://i.ibb.co/R2S7zZ5/pexels-skitterphoto-615302-1.png"
     }
