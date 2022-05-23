@@ -1,50 +1,56 @@
 [
     {
-        "id": 1,
-        "documention": "New Vostro 3510 Laptop",
-        "name": "John",
-        "price": "70,000",
-        "description": "Laptop featuring 10th Gen Intel® Core™ processors has the essentials to keep your data secure.",
-        "img": "https://i.ibb.co/Qvmkyw6/pexels-julien-brion-102061-1.png"
+        "_id": 1,
+        "name": "Nikon D5600 DSLR camera",
+        "price": "700",
+        "orderquantity": "5",
+        "availablequantity": "2",
+        "description": "Star Tech presents the exclusive collection of latest Canon & Nikon DSLR cameras at best market price for the customers",
+        "img": "https://i.ibb.co/bHj6HWX/pexels-carl-kristensen-1674300-1.png"
     },
     {
-        "id": 2,
-        "documention": "Inspiron 14 5410 Laptop",
-        "name": "Robert",
-        "price": "78,000",
-        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the essentials to keep your data secure.",
-        "img": "https://i.ibb.co/NNqrZjJ/maxim-hopman-Hin-rzh-Od-Ws-unsplash-1.png"
+        "_id": 2,
+        "name": "18-55mm Lens",
+        "price": "780",
+        "orderquantity": "3",
+        "availablequantity": "4",
+        "description": "The viewfinder of a DSLR contains a single lens by which an image that will not differ substantially from what is captured by the camera's sensor",
+        "img": "https://i.ibb.co/4tXJT9N/pexels-john-rapone-8185668-1.png"
     },
     {
-        "id": 3,
-        "documention": "Inspiron 2-in-1 Laptop",
-        "name": "James",
-        "price": "90,000",
-        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the essentials to keep your data secure...",
-        "img": "https://i.ibb.co/8bCmpY0/joshua-reddekopp-Gk-FQEOubr-Co-unsplash-1.png"
+        "_id": 3,
+        "name": "Sony Alfa A6400",
+        "price": "900",
+        "orderquantity": "2",
+        "availablequantity": "5",
+        "description": "DSLR camera has a unique feature called reflex design scheme where light travels through the lens",
+        "img": "https://i.ibb.co/YcpLTm6/pexels-ksenia-chernaya-5691633-1.png"
     },
     {
-        "id": 4,
-        "documention": "Inspiron 15 5510 Laptop",
-        "name": "Michael",
-        "price": "66,000",
-        "description": "Laptop featuring 11th Gen Intel® Core™ processors has the Ideal blend of portability and productivity.",
-        "img": "https://i.ibb.co/X2YbYfR/jose-gil-Uar8mh-f0k-A-unsplash-1.png"
+        "_id": 4,
+        "name": "Nikon Z50 20.9MP",
+        "price": "660",
+        "orderquantity": "4",
+        "availablequantity": "6",
+        "description": " the Kodak Microelectronics Technology Division first developed an image sensor with more than 1 million pixels.",
+        "img": "https://i.ibb.co/wJPS2G6/pexels-markus-spiske-2027044-1.png"
     },
     {
-        "id": 5,
-        "documention": "Inspiron 7510 Laptop",
-        "name": "William",
-        "price": "85,000",
-        "description": "2-in-1 laptop designed to bring your world closer. Features a 4-sided narrow border.",
-        "img": "https://i.ibb.co/pbd1d9f/giorgio-trovato-8kr-X0-Hk-Xw8c-unsplash-1.png"
+        "_id": 5,
+        "name": "Canon E06",
+        "price": "850",
+        "orderquantity": "7",
+        "availablequantity": "8",
+        "description": "this sensor was integrated with a Canon F-1 film SLR body at the Kodak Federal Systems Division to create the first DSLR camera. ",
+        "img": "https://i.ibb.co/QDw14Qk/pexels-mo-men-salah-3634734-1.png"
     },
     {
-        "id": 6,
-        "documention": "Inspiron 7510 Laptop",
-        "name": "David",
-        "price": "70,000",
+        "_id": 6,
+        "name": "55MM STM Lense",
+        "price": "700",
+        "orderquantity": "1",
+        "availablequantity": "9",
         "description": "Canon Eos 80D DSLR with 18-55mm Lens Camera",
-        "img": "https://i.ibb.co/2vcYVvM/erick-cerritos-i5-UV2-Hp-ITYA-unsplash-1-1.png"
+        "img": "https://i.ibb.co/R2S7zZ5/pexels-skitterphoto-615302-1.png"
     }
 ]
