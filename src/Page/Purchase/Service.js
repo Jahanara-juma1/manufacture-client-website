@@ -17,7 +17,7 @@ const Service = ({ service, setProduct }) => {
                     
             <label for="booking-modal" 
             onClick={() =>setProduct(service)}
-            class="btn btn-primary text-white">Buy Now</label>
+            class="btn btn-primary text-white uppercase bg-gradient-to-r from-secondary to-primary">Buy Now</label>
             </div>
             </div>
         </div>
