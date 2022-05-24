@@ -15,7 +15,7 @@ const Service = ({ service, setProduct }) => {
                 <p>{description}</p>
                 <div className="card-actions">
                     
-            <label for="booking-modal" 
+            <label htmlFor="booking-modal" 
             onClick={() =>setProduct(service)}
             className="btn btn-primary text-white uppercase bg-gradient-to-r from-secondary to-primary">Buy Now</label>
             </div>
