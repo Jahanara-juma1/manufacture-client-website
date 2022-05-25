@@ -1,10 +1,20 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Manufacture Website](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### documention
+* Home page
+* Blogs part
+* purchase private route
+* My portfolio and 
+* Dashboard.
 
-In the project directory, you can run:
+### Framework uses
+* daisyui
+* firebase
+* react-dom
+* react-firebase-hooks and
+* react-toastify.
 
 ### `npm start`
 
