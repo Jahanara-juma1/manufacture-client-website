@@ -6,10 +6,10 @@ import Service from './Service';
 
 
 const AvailableProduct = () => {
-    // const [services, setServices] = useState([]);
+    
     const [product, setProduct] = useState(null);
 
-    const {data: services, isLoading, refetch} = useQuery('available', ()=> fetch('http://localhost:5000/available')
+    const {data: services, isLoading, refetch} = useQuery(['available'], ()=> fetch('https://radiant-reaches-54405.herokuapp.com/available')
         .then(res=> res.json())
         )
 
@@ -17,12 +17,7 @@ const AvailableProduct = () => {
             return <Loading></Loading>
         }
 
-    // useEffect( () =>{
-    //     fetch('http://localhost:5000/service')
-    //     .then(res=> res.json())
-    //     .then(data => setServices(data));
-
-    // }, [])
+    
     return (
         <div>
             <h2 className='text-2xl text-primary text-center my-12'>Our Product</h2>

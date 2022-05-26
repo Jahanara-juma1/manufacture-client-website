@@ -19,6 +19,8 @@ import MyPortfolio from './Page/MyPortfolio';
 import MyHistory from './Page/Dashboard/MyHistory';
 import Users from './Page/Dashboard/Users';
 import RequireAdmin from './Page/Login/RequireAdmin';
+import AddProduct from './Page/Dashboard/AddProduct';
+import ManageProduct from './Page/Dashboard/ManageProduct';
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
           <Route path="review" element={<MyReview></MyReview>}></Route>
           <Route path="history" element={<MyHistory></MyHistory>}></Route>
           <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
+          <Route path="addProduct" element={<RequireAdmin><AddProduct></AddProduct></RequireAdmin>}></Route>
+          <Route path="manageProduct" element={<RequireAdmin><ManageProduct></ManageProduct></RequireAdmin>}></Route>
         </Route>
         <Route path="login" element={<Login />} />
         <Route path="myportfolio" element={<MyPortfolio />} />

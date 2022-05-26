@@ -12,7 +12,7 @@ const MyProfile = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/booking?client=${user.email}`,{
+            fetch(`https://radiant-reaches-54405.herokuapp.com/booking?client=${user.email}`,{
               method: 'GET',
               headers:{
                 'authorization': `bearer ${localStorage.getItem('accessToken')}`
